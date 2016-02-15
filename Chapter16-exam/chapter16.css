@@ -1,0 +1,183 @@
+@CHARSET "ISO-8859-1";
+body{
+	width: 100%;
+	margin: 0px;
+	backgroun-color: #ECEBEB;
+}
+#header{
+	width: 100%;
+	margin: auto auto 20px;
+	padding: 10px;
+	background-color: #7AAE2A;
+	box-shadow: 0px 4px 2px -2px #808080;
+	position: fixed;
+	top: 0px;
+}
+#content{
+	width: 90%;
+	padding:20px;
+	background-color: orange;
+	margin: 80px auto 20px;
+	border-radius: 10px;
+	box-shadow: 2px 0px 25px blue;
+	min-height: 1500px;
+}
+.h1{
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 2px 3px green;
+	font-family: serif;
+}
+hr{
+	height: 5px;
+	background-color: green;
+}
+#head-content{
+	width: 100%;
+	background-image: url("bg2.jpg");
+	background-size: 100% auto;
+	background-position: 0px -28px;
+	min-height: 500px;
+}
+#menu{
+	width: 100%;
+	background-color: orange;
+	margin-bottom: 120px;
+	opacity: 0.6;
+}
+#menu ul{
+	text-align: center;
+}
+#menu ul li{
+	display: inline-block;
+	padding: 20px 40px;
+	border-right: 1px solid black;
+}
+# menu ul li: last-child{
+	border-right: medium none;
+}
+#poem{
+	font-size: 20px;
+	padding: 70px 0px;
+	background-color: green;
+	opacity: 0.3;
+}
+#main-content{
+	width: 80%;
+	margin: auto;
+	padding: 30px 0;
+}
+#pic-desc{
+	width: 70%;
+	float: right;
+	margin-top: 115px;
+	box-sizing: 20px;
+	border: 5px solid black;
+	border-radius: 20px;
+}
+#pic-desc p.center::first-letter{
+	font-size: 40px;
+	color: pink;
+	font-family: serif;
+	font-weight: bold;
+}
+#picture{
+	width: 30%;
+	float: left;
+}
+.name{
+	text-align:center;
+	font-size: 30px;
+	font-weight: bold;
+}
+# pic-desc p.cneter{
+	text-indent: 20px;
+}
+#trophies{
+	clear: both;
+	padding-top: 40px;
+}
+.first-trophy{
+	foloat:left;
+}
+.trophies{
+	width:48%;
+	background-color: red;
+	border-radius: 10px;
+	padding: 5px;
+	box-shadow: 0 0 5px black;
+	height: 200px;
+}
+.trophies h4{
+	text-align: center;
+	font-size: 25px;
+	color: orange;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.trophies ul li ol li{
+	padding-bottom: 10px;
+}
+.second-trophy{
+	float: right;
+	transition: transform 0.5s ease-in;
+}
+#education{
+	clear: both;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+#education h4 {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    transition: transform 0.5s ease-in;
+}
+#education table {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: red;
+}
+#education table thead {
+    background-color: pink;
+    color: black;
+}
+#education table tbody {
+    background-color: blue;
+}
+#entertainment h4 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    transition: transform 0.5s ease-in;
+}
+#entertainment .sections {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+#entertainment .sections p.title {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+#entertainment .sections p {
+    font-size: 28px;
+    font-family: cursive;
+    text-align: center;
+}
+#entertainment #audio-section {
+    width: 32%;
+}
+#entertainment .sections p.title {
+    font-size: 34px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+#footer {
+    width: 100%;
+    margin: auto;
+    min-height: 100px;
+    background-color: blue;
+}
+
